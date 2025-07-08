@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script src="../OSD/openseadragon.js" type="text/javascript"> </script>
+
+        <title></title>
+        <style></style>
+
+    </head>
+    <body>Hello
+
+        <div id="image">
+            <style>
+                 .navigator .highlight{
+            opacity:    0.4;
+            filter:     alpha(opacity=40);
+            outline:    2px solid #900;
+            background-color: #900;
+        }
+        .highlight{
+            opacity:    0.4;
+            filter:     alpha(opacity=40);
+            outline:    12px auto #0A7EbE;
+            background-color: transparent;
+        }
+        .highlight:hover, .highlight:focus{
+            filter:     alpha(opacity=70);
+            opacity:    0.7;
+            background-color: transparent;    
+        }
+            </style>
+        }
+    
+        <script type="text/javascript">
+   
+   OpenSeadragon({
+        id:            "image",
+        prefixUrl:     "../OSD/images/",
+        tileSources: [{          
+            type: 'image',
+            url: "../Pen540/9_794c1_default.jpg" /*parameter*/ 
+        ,
+       overlays: [{
+            id: 'overlay',
+            x: 0.23, /* automatisiert */
+            y: 0.132, /* automatisiert */
+            width: 0.055, /* automatisiert */
+            height: 0.03, /* automatisiert */
+            className: 'highlight'
+        }]
+ 
+    }],
+        defaultZoomLevel:   0,
+        minZoomLevel:   1,
+        maxZoomLevel:   5,
+        visibilityRatio:    1
+    });
+
+        </script>
+
+    </body>
+
+</html>

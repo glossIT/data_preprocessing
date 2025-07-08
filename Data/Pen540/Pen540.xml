@@ -1461,32 +1461,56 @@
                               <ab n="21" type="textline" facs="#eSc_line_76193ab3">inet᷑ noctesq; ꝑuices; Umbilici quẽ gno</ab>
                         </div>
                         <div type="chapter" n="DNR_XLVIII" xml:id="Pen540_DNR_XLVIII">
-                              <gloss n="20" type="InterlinearLine:signe_de_renvoi" facs="#eSc_line_6dbf552f">:</gloss>
-                              <ab n="22" type="textline" facs="#eSc_line_8b9e58b7">mon apellat̃ ũbra ĩ egipto meridiano tẽpore</ab>
-                              <gloss n="24" type="InterlinearLine:signe_de_renvoi" facs="#eSc_line_e0b0952f">//</gloss>
-                              <gloss n="23" type="InterlinearLine:gloss" facs="#eSc_line_cad014ed">.i. ĩd.</gloss>
-                              <ab n="25" type="textline" facs="#eSc_line_9bc972f9">eqͥnaxii die paulo plꝗ̃ demediã gnomĩs mẽsurã</ab>
-                              <gloss n="26" type="InterlinearLine:gloss" facs="#eSc_line_3bfb8189">:</gloss>
-                              <gloss n="27" type="InterlinearLine:gloss" facs="#eSc_line_06a14aaf">.i. ab</gloss>
-                              <ab n="28" type="textline" facs="#eSc_line_c4ad8486">efficit. In urbe roma nona pars gnomĩs đẽ ũbra</ab>
-                              <gloss n="30" type="InterlinearLine:gloss" facs="#eSc_line_51a7f45a">.i. maior ÷ ũbra ꝗ gnom̃</gloss>
-                              <gloss n="29" type="InterlinearLine:gloss" facs="#eSc_line_fbba4e42">.i. umbra</gloss>
-                              <gloss n="31" type="InterlinearLine:gloss" facs="#eSc_line_73a01cb9">pars</gloss>
-                              <ab n="32" type="textline" facs="#eSc_line_021c94a5">IN opidio anchora suꝑẽ qͥnta tͥgesima. In par</ab>
-                              <ab n="33" type="textline" facs="#eSc_line_f70ca8c9">te italiȩ q̃uene</ab>
-                              <ab n="34" type="textline" facs="#eSc_line_d0e3bce2">tia appellat᷑</ab>
-                              <gloss n="35" type="InterlinearLine:gloss" facs="#eSc_line_164fd454">.i. ĩ solistitio estuiuali</gloss>
+                              <gloss n="20" type="InterlinearLine:signe_de_renvoi"
+                                    facs="#eSc_line_6dbf552f">:</gloss>
+                              <ab n="22" type="textline" facs="#eSc_line_8b9e58b7">mon apellat̃
+                                    ũbra ĩ egipto meridiano tẽpore</ab>
+                              <gloss n="24" type="InterlinearLine:signe_de_renvoi"
+                                    facs="#eSc_line_e0b0952f">//</gloss>
+                              <gloss n="23" type="InterlinearLine:gloss" facs="#eSc_line_cad014ed"
+                                    >.i. ĩd.</gloss>
+                              <ab n="25" type="textline" facs="#eSc_line_9bc972f9">eqͥnaxii die
+                                    paulo plꝗ̃ demediã gnomĩs mẽsurã</ab>
+                              <gloss n="26" type="InterlinearLine:gloss" facs="#eSc_line_3bfb8189"
+                                    >:</gloss>
+                              <gloss n="27" type="InterlinearLine:gloss" facs="#eSc_line_06a14aaf"
+                                    >.i. ab</gloss>
+                              <ab n="28" type="textline" facs="#eSc_line_c4ad8486">efficit. In urbe
+                                    roma nona pars gnomĩs đẽ ũbra</ab>
+                              <gloss n="30" type="InterlinearLine:gloss" facs="#eSc_line_51a7f45a"
+                                    >.i. maior ÷ ũbra ꝗ gnom̃</gloss>
+                              <gloss n="29" type="InterlinearLine:gloss" facs="#eSc_line_fbba4e42"
+                                    >.i. umbra</gloss>
+                              <gloss n="31" type="InterlinearLine:gloss" facs="#eSc_line_73a01cb9"
+                                    >pars</gloss>
+                              <ab n="32" type="textline" facs="#eSc_line_021c94a5">IN opidio anchora
+                                    suꝑẽ qͥnta tͥgesima. In par</ab>
+                              <ab n="33" type="textline" facs="#eSc_line_f70ca8c9">te italiȩ
+                                    q̃uene</ab>
+                              <ab n="34" type="textline" facs="#eSc_line_d0e3bce2">tia
+                                    appellat᷑</ab>
+                              <gloss n="35" type="InterlinearLine:gloss" facs="#eSc_line_164fd454"
+                                    >.i. ĩ solistitio estuiuali</gloss>
                               <ab n="36" type="textline" facs="#eSc_line_138e85dc">hiᷤdẽ horis</ab>
                               <ab n="37" type="textline" facs="#eSc_line_fe35d549">ũbra gnomũ</ab>
-                              <ab n="38" type="textline" facs="#eSc_line_620f1009">par sit. Similimꝰ</ab>
-                              <gloss n="5" type="OuterMarginalLine:signe_de_renvoi" facs="#eSc_line_cf61dff7">⸫</gloss>
-                              <gloss n="6" type="OuterMarginalLine:gloss" facs="#eSc_line_fd69fa5a">.i. ad aqionẽ</gloss>
-                              <gloss n="39" type="InterlinearLine:gloss" facs="#eSc_line_b294f28e">estutis</gloss>
-                              <ab n="40" type="textline" facs="#eSc_line_100cadd9">ꝙ ẽ supͣ alaxandia qͥnq; milib; staduĩ solsticii</ab>
-                              <gloss n="41" type="InterlinearLine:gloss" facs="#eSc_line_a05e7e17">.i. dñt</gloss>
-                              <gloss n="42" type="InterlinearLine:gloss" facs="#eSc_line_77ea35a5">.i. ñiaci umƀ</gloss>
-                              <ab n="43" type="textline" facs="#eSc_line_24c440ab">die medio nullã ũbrã i aci; Sic̃ ⁊ĩ india supͣ</ab>
-                              <gloss n="1" type="LowerMarginalLine:gloss" facs="#eSc_line_1ae8be4d">pma</gloss>
+                              <ab n="38" type="textline" facs="#eSc_line_620f1009">par sit.
+                                    Similimꝰ</ab>
+                              <gloss n="5" type="OuterMarginalLine:signe_de_renvoi"
+                                    facs="#eSc_line_cf61dff7">⸫</gloss>
+                              <gloss n="6" type="OuterMarginalLine:gloss" facs="#eSc_line_fd69fa5a"
+                                    >.i. ad aqionẽ</gloss>
+                              <gloss n="39" type="InterlinearLine:gloss" facs="#eSc_line_b294f28e"
+                                    >estutis</gloss>
+                              <ab n="40" type="textline" facs="#eSc_line_100cadd9">ꝙ ẽ supͣ
+                                    alaxandia qͥnq; milib; staduĩ solsticii</ab>
+                              <gloss n="41" type="InterlinearLine:gloss" facs="#eSc_line_a05e7e17"
+                                    >.i. dñt</gloss>
+                              <gloss n="42" type="InterlinearLine:gloss" facs="#eSc_line_77ea35a5"
+                                    >.i. ñiaci umƀ</gloss>
+                              <ab n="43" type="textline" facs="#eSc_line_24c440ab" ana="view">die
+                                    medio nullã ũbrã i aci; Sic̃ ⁊ĩ india supͣ</ab>
+                              <gloss n="1" type="LowerMarginalLine:gloss" facs="#eSc_line_1ae8be4d"
+                                    >pma</gloss>
                         </div>
                   </div>
             </body>
