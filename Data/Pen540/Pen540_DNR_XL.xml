@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="glossit">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author ana="marcrelator:aut">
+                    <persName ref="http://d-nb.info/gnd/118508237">Beda Venerabilis</persName>
+                </author>
+                <editor ana="marcrelator:edt">
+                    <persName>
+                        <forename>Bernhard</forename>
+                        <surname>Bauer</surname>
+                    </persName>
+                </editor>
+                <respStmt ana="marcrelator:trc">
+                    <resp>Transcription from Original MS</resp>
+                    <persName>
+                        <forename>Bernhard</forename>
+                        <surname>Bauer</surname>
+                    </persName>
+                    <persName>
+                        <forename>Francesca</forename>
+                        <surname>Guido</surname>
+                    </persName>
+                </respStmt>
+                <respStmt ana="marcrelator:mrk">
+                    <resp>XML encoding</resp>
+                    <persName>
+                        <forename>Bernhard</forename>
+                        <surname>Bauer</surname>
+                    </persName>
+                    <persName>
+                        <forename>Sina</forename>
+                        <surname>Krottmaier</surname>
+                    </persName>
+                </respStmt>
+                <funder ana="marcrelator:fnd">
+                    <orgName ref="https://erc.europa.eu/homepage/">European Research
+                        Council</orgName>
+                    <num>Grant agreement No. 101123203</num>
+                    <name type="award">EU Horizon Europe ERC Consolidator-Grant</name>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://d-nb.info/gnd/1137284463"
+                        corresp="https://informationsmodellierung.uni-graz.at">Department of Digital
+                        Humanities, University of Graz</orgName>
+                </publisher>
+                <authority ana="marcrelator:his">
+                    <orgName ref="http://d-nb.info/gnd/1137284463"
+                        corresp="https://informationsmodellierung.uni-graz.at">Department of Digital
+                        Humanities, University of Graz</orgName>
+                </authority>
+                <distributor ana="marcrelator:rps">
+                    <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative
+                        Commons BY-NC 4.0</licence>
+                </availability>
+                <date when="2017" ana="dcterms:issued">2017</date>
+                <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+                <idno type="PID">o:pid.1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title ref="https://gams.uni-graz.at/glossit"> GlossIT: Celtic and Latin glossing
+                    traditions: uncovering early medieval language contact and knowledge transfer </title>
+                <title ref="https://gams.uni-graz.at/glossit" xml:lang="de"> GlossIT: Keltische und
+                    lateinische Glossen als Quellen für frühmittelalterlichen Sprachkontakt und
+                    Wissenstransfer </title>
+                <respStmt ana="marcrelator:pdr">
+                    <resp>Principal Investigator</resp>
+                    <persName>
+                        <forename>Bernhard</forename>
+                        <surname>Bauer</surname>
+                    </persName>
+                </respStmt>
+                <respStmt ana="marcrelator:res">
+                    <resp>ZIM Mitarbeiter</resp>
+                    <persName>
+                        <forename>Francesca</forename>
+                        <surname>Guido</surname>
+                    </persName>
+                    <persName>
+                        <forename>Sina</forename>
+                        <surname>Krottmaier</surname>
+                    </persName>
+                    <persName>
+                        <forename>Carolina</forename>
+                        <surname>Mairinger</surname>
+                    </persName>
+                    <persName>
+                        <forename>Annabelle</forename>
+                        <surname>Kienzl</surname>
+                    </persName>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc ana="gams:Manuscript">
+                    <msIdentifier>
+                        <settlement/>
+                        <repository/>
+                        <idno ana="dcterms:source"/>
+                        <altIdentifier>
+                            <idno type="GlossIT"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem ana="gams:MsItem">
+                            <locus from="" to=""/>
+                            <author ana="dcterms:author"/>
+                            <title ana="dcterms:title"/>
+                            <textLang n="text" mainLang="" ana="dcterms:language"/>
+                            <textLang n="gloss" mainLang="" otherLangs=""/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support ana="dcterms:medium">
+                                    <p/>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate ana="dcterms:date">
+                                <date when=""/>
+                            </origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <listRef>
+                                <ref n="catalogue" corresp="link" ana="rdfs:seeAlso"/>
+                                <ref n="facsimile" corresp="link"/>
+                            </listRef>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+                <note type="progress"/>
+                <note xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" type="progress" n=""/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>was über die editionsregeln und kodierungsrichtlinien</p>
+            </editorialDecl>
+            <projectDesc>
+                <ab>
+                    <ref target="context:glossit" rendition="context">GlossIT Context</ref>
+                    <note xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" rendition="progress" n=""/>
+                </ab>
+                <p>Glosses are fingerprints of the society in which texts were composed, copied, and
+                    read. Most importantly, they play a much more significant role than previous
+                    research has acknowledged and offer insights about the multilingual and
+                    multi-ethnic environment of medieval manuscript and text production the
+                    principal texts cannot: they are first-hand testimonies of the close linguistic
+                    and cultural connections between Insular Celtic (Old Breton, Old Irish, Old
+                    Welsh) and Latin speakers. GLOSSIT researches these contacts combining methods
+                    of comparative philology and historical linguistics, digital humanities
+                    (handwritten text recognition, network analysis, natural language processing),
+                    (cultural) history, and biological computation (applying DNA-sequence alignment
+                    methods to glosses).</p>
+            </projectDesc>
+            <listPrefixDef>
+                <prefixDef ident="marcrelator" matchPattern="([a-z]+)"
+                    replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+                    <p>Taxonomie Rollen MARC</p>
+                </prefixDef>
+                <prefixDef ident="dcterms" matchPattern="([a-z]+)"
+                    replacementPattern="http://purl.org/dc/terms/$1">
+                    <p>DCterms</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#">
+                    <list>
+                        <item>
+                            <term>Digital Humanities</term>
+                        </item>
+                        <item>
+                            <term>Early Medieval</term>
+                        </item>
+                        <item>
+                            <term>Glossing</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="710,870 722,870 722,891 710,891" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_2be7887e" n="89"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="435,877 930,877 930,917 435,917" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_3c9227cd" n="90"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="480,902 524,902 524,923 480,923" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_561d7ee0" n="91"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="434,905 912,905 912,952 434,952" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_b525189b" n="92"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="468,928 481,928 481,949 468,949" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_4568e491" n="93"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="550,930 560,930 560,949 550,949" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_045519ec" n="94"/>
+            </test>
+            <test/>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="583,120 618,120 618,140 583,140" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_9bfacf42" n="1"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="147,124 620,124 620,167 147,167" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_e2a0b8cb" n="2"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="522,155 545,155 545,176 522,176" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_e7926bc6" n="3"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="143,162 603,162 603,206 143,206" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_81fb9ddc" n="4"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="271,196 283,196 283,218 271,218" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_9476bfcc" n="6"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="445,191 471,191 471,208 445,208" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_36c0451c" n="5"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="133,185 614,185 614,229 133,229" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_0d770fad" n="7"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="157,223 200,223 200,243 157,243" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_2548ac32" n="8"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="140,209 616,209 616,259 140,259" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_091131ad" n="9"/>
+            </test>
+            <test>
+                <zone xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+                    points="139,249 383,249 383,291 139,291" rendition="TextLine" rotate="0"
+                    xml:id="eSc_line_0cf57547" n="10"/>
+            </test>
+        </test>
+    </facsimile>
+    <text>
+        <body>
+            <div type="work" n="DNR" xml:id="Pen540_DNR">
+                <div type="chapter" n="XL" xml:id="Pen540_DNR_XL">
+                    <gloss n="89" rendition="InterlinearLine:signe_de_renvoi"
+                        facs="#eSc_line_2be7887e">/.</gloss>
+                    <ab n="90" rendition="textline" facs="#eSc_line_3c9227cd">fluuior̃ occursu ñ
+                        auget᷑; dicunt nat᷑alit͛ salsiᷤ un</ab>
+                    <gloss n="91" rendition="InterlinearLine:gloss" facs="#eSc_line_561d7ee0">.i.
+                        riuus</gloss>
+                    <ab n="92" rendition="textline" facs="#eSc_line_b525189b">diᷤ fluentũ dulce
+                        cõsũi ł uẽtiᷤ ł uapore soł arripi</ab>
+                    <gloss n="93" rendition="InterlinearLine:signe_de_renvoi"
+                        facs="#eSc_line_4568e491">:</gloss>
+                    <gloss n="94" rendition="InterlinearLine:signe_de_renvoi"
+                        facs="#eSc_line_045519ec">:</gloss>
+                    <pb facs="#IMAGE.5" n="fol. 3r" url="11_07e8d_default.jpg"/>
+                    <gloss n="1" rendition="InterlinearLine:gloss" facs="#eSc_line_9bfacf42"
+                        >Aug̃</gloss>
+                    <ab n="2" rendition="textline" facs="#eSc_line_e2a0b8cb">ut ĩl ͣcis lacuniᷤ q;
+                        ꝓbamꝰ ⁊ƀui mom̃to disicatiᷤ ł etĩ</ab>
+                    <gloss n="3" rendition="InterlinearLine:gloss" facs="#eSc_line_e7926bc6"
+                        >dñt</gloss>
+                    <ab n="4" rendition="textline" facs="#eSc_line_81fb9ddc">occulto meatu ĩsuos
+                        refluere fontes; ⁊ solito ꝑ</ab>
+                    <gloss n="6" rendition="InterlinearLine:signe_de_renvoi"
+                        facs="#eSc_line_9476bfcc">;</gloss>
+                    <gloss n="5" rendition="InterlinearLine:gloss" facs="#eSc_line_36c0451c"
+                        >dñt</gloss>
+                    <ab n="7" rendition="textline" facs="#eSc_line_0d770fad">suos ãnes essu
+                        recurrere; Mariniᷤ ħ aqͥs dulces</ab>
+                    <gloss n="8" rendition="InterlinearLine:signe_de_renvoi"
+                        facs="#eSc_line_2548ac32">.i.supra</gloss>
+                    <ab n="9" rendition="textline" facs="#eSc_line_091131ad">suꝑfũdi uͭpote
+                        leuioreᷤ. Ipsas uͦ ut g̃uioreᷤ nat᷑e</ab>
+                    <ab n="10" rendition="textline" facs="#eSc_line_0cf57547">magiᷤ sꝰtinere
+                        suꝑfusas;</ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
