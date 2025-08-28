@@ -218,58 +218,8 @@
                         </profileDesc>
                     </teiHeader>
                     <facsimile>
-                        <xsl:choose>
+                       <xsl:copy-of select="ancestor::t:TEI/t:facsimile/*"/>
                             
-                            <!-- no page beginning in chapter: looks for the next preceding chapter with a page beginning and
-                                uses the attributes from there --> 
-                            
-                            <xsl:when test="not(./t:pb)"> 
-                                <xsl:variable name="imageURL">
-                                    <xsl:value-of select=".//preceding-sibling::t:div[@type = 'chapter'][t:pb][1]/t:pb[1]/@url"/>
-                                </xsl:variable>
-                                <xsl:copy-of select="./ancestor::t:text/preceding-sibling::t:facsimile/t:surface/t:graphic[@url = $imageURL]/parent::t:surface"/>                               
-                            </xsl:when>
-                            <!-- chapter has a page beginning at the beginning of the chapter, no previous gloss or ab siblings --> 
-                            <xsl:when test="./t:pb and not(./t:pb/preceding-sibling::*)">
-                               <xsl:variable name="imageURL">
-                                <xsl:value-of select="./t:pb/@url"/>                      
-                               </xsl:variable>
-                                <xsl:copy-of select="./ancestor::t:text/preceding-sibling::t:facsimile/t:surface/t:graphic[@url = $imageURL]/parent::t:surface"></xsl:copy-of>
-                             
-                            </xsl:when>
-                            <!-- chapter has multiple page beginnings and the first one starts mit-chapter --> 
-                            <xsl:when test="count(.//t:pb) >= 1 and ./t:pb[1]/preceding-sibling::*">
-                            <surface>
-                                <xsl:variable name="imageURL">
-                       
-                                    <xsl:value-of
-                                        select=".//preceding-sibling::t:div[@type = 'chapter'][t:pb][1]/t:pb[1]/@url"
-                                    />
-                                </xsl:variable>
-                                <xsl:variable name="surfaceID">
-             
-                                    <xsl:value-of
-                                        select="substring-after(.//preceding-sibling::t:div[@type = 'chapter'][t:pb][1]/t:pb[1]/@facs, '#')"
-                                    />
-                                </xsl:variable>
-                                <xsl:copy-of select="./ancestor::t:text/preceding-sibling::t:facsimile/t:surface/t:graphic[@url = $imageURL and @xml:id = $surfaceID]/parent::t:surface"/>
-                              
-                            </surface>   
-                                <!-- processing of the other PBs in the chapter --> 
-                         <xsl:for-each select="./t:pb">
-                                <xsl:variable name="imageURL">
-                                    <xsl:value-of select="./@url"/>                      
-                                </xsl:variable>
-                              <xsl:variable name="surfaceID">
-                                  <xsl:value-of select="substring-after(./@facs, '#')"/>                      
-                              </xsl:variable>
-                             <xsl:copy-of select="./ancestor::t:text/preceding-sibling::t:facsimile/t:surface/t:graphic[@url = $imageURL and @xml:id = $surfaceID]/parent::t:surface"/><surface>
-                          
-                                </surface>
-                      </xsl:for-each>  
-                                
-                            </xsl:when>
-                        </xsl:choose>
                     </facsimile>
                     <text xmlns="http://www.tei-c.org/ns/1.0">
                         <body>
